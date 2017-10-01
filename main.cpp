@@ -568,6 +568,74 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(425, -644, -1);
 	glVertex3f(427, -656, -1);
 	glVertex3f(428, -666, -1);
+	glVertex3f(412, -666, -1);
+	glVertex3f(400, -665, -1);
+	glVertex3f(366, -664, -1);
+	glVertex3f(275, -658, -1);
+	glVertex3f(269, -662, -1);
+	glVertex3f(269, -666, -1);	//init left hand
+	glVertex3f(271, -666, -1);
+	glVertex3f(273, -665, -1);
+	glVertex3f(277, -667, -1);
+	glVertex3f(280, -670, -1);
+	glVertex3f(286, -677, -1);
+	glVertex3f(288, -685, -1);
+	glVertex3f(285, -683, -1);
+	glVertex3f(276, -683, -1);
+	glVertex3f(280, -689, -1);
+	glVertex3f(289, -694, -1);
+	glVertex3f(294, -698, -1);
+	glVertex3f(303, -700, -1);
+	glVertex3f(312, -701, -1);
+	glVertex3f(312, -701, -1);
+	glVertex3f(330, -700, -1);
+	glVertex3f(372, -697, -1);
+	glVertex3f(385, -695, -1);
+	glVertex3f(398, -693, -1);
+	glVertex3f(409, -691, -1);
+	glVertex3f(423, -690, -1);
+	glVertex3f(430, -689, -1);
+	glVertex3f(439, -686, -1);
+	glVertex3f(447, -683, -1);
+	glVertex3f(456, -680, -1);
+	glVertex3f(460, -683, -1);
+	glVertex3f(456, -677, -1);
+	glVertex3f(451, -672, -1);
+	glVertex3f(443, -668, -1);
+	glVertex3f(428, -665, -1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	glEnd();
 
   glutSwapBuffers ( );

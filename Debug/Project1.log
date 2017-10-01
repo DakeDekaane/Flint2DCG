@@ -1,6 +1,6 @@
 ﻿  main.cpp
-c:\users\acer\source\repos\project1\project1\main.cpp(10): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
-c:\users\acer\source\repos\project1\project1\main.cpp(11): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
-c:\users\acer\source\repos\project1\project1\main.cpp(12): warning C4838: la conversión de 'double' en 'float' requiere una conversión de restricción
-  Project1.vcxproj -> C:\Users\Acer\source\repos\Project1\Debug\Project1.exe
-  Project1.vcxproj -> C:\Users\Acer\source\repos\Project1\Debug\Project1.pdb (Partial PDB)
+c:\users\llara\desktop\development\flint2dcg\main.cpp(10): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\llara\desktop\development\flint2dcg\main.cpp(11): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\llara\desktop\development\flint2dcg\main.cpp(12): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+  Project1.vcxproj -> C:\Users\llara\Desktop\Development\Flint2DCG\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\llara\Desktop\Development\Flint2DCG\Debug\Project1.pdb (Partial PDB)
