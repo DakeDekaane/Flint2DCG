@@ -33,7 +33,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glColor3fv(negro);					//Color de línea
 	
 	//Cabeza 
-	glLineWidth(3.0);
+	glLineWidth(2.5);
 	
 	glBegin(GL_LINE_STRIP);
 	glVertex3f(235, -308, -1.0);
@@ -510,6 +510,64 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(478, -135, -1);
 	glVertex3f(480, -139, -1);
 	glVertex3f(486, -148, -1);
+	glEnd();
+
+	//Cuello
+	glBegin(GL_LINE_STRIP);
+	glVertex3f(332, -454, -1);
+	glVertex3f(331, -464, -1);
+	glVertex3f(321, -478, -1);
+	glVertex3f(325, -484, -1);
+	glVertex3f(331, -487, -1);
+	glVertex3f(342, -484, -1);
+	glVertex3f(351, -480, -1);
+	glVertex3f(358, -479, -1);
+	glVertex3f(363, -478, -1);
+	glVertex3f(360, -472, -1);
+	glVertex3f(359, -466, -1);
+	glVertex3f(361, -451, -1);
+	glEnd();
+	
+	//Brazo izquierdo
+	glBegin(GL_LINE_STRIP);
+	glVertex3f(363, -478, -1);
+	glVertex3f(376, -490, -1);
+	glVertex3f(386, -496, -1);
+	glVertex3f(393, -500, -1);
+	glVertex3f(399, -508, -1);
+	glVertex3f(403, -516, -1);
+	glVertex3f(408, -537, -1);
+	glVertex3f(413, -551, -1);
+	glVertex3f(417, -559, -1);
+	glVertex3f(423, -574, -1);
+	glVertex3f(430, -585, -1);
+	glVertex3f(436, -593, -1);
+	glVertex3f(446, -609, -1);
+	glVertex3f(455, -624, -1);
+	glVertex3f(462, -639, -1);
+	glVertex3f(467, -655, -1);
+	glVertex3f(470, -671, -1);
+	glVertex3f(470, -689, -1);
+	glVertex3f(467, -697, -1);
+	glVertex3f(458, -697, -1);
+	glVertex3f(450, -695, -1);
+	glVertex3f(444, -692, -1);
+	glVertex3f(439, -686, -1);
+	glEnd();
+
+	glBegin(GL_LINE_STRIP);
+	glVertex3f(374, -557, -1);
+	glVertex3f(379, -561, -1);
+	glVertex3f(387, -566, -1);
+	glVertex3f(393, -574, -1);
+	glVertex3f(401, -583, -1);
+	glVertex3f(407, -593, -1);
+	glVertex3f(413, -604, -1);
+	glVertex3f(418, -616, -1);
+	glVertex3f(422, -630, -1);
+	glVertex3f(425, -644, -1);
+	glVertex3f(427, -656, -1);
+	glVertex3f(428, -666, -1);
 	glEnd();
 
   glutSwapBuffers ( );
