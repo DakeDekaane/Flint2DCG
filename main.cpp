@@ -848,8 +848,75 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glEnd();
 
 	//Cuerpo
-	//glBegin(GL_LINE_STRIP);
-	//glEnd();
+	glBegin(GL_LINE_STRIP);
+	glVertex3f(275, -546, -1);
+	glVertex3f(287, -522, -1);
+	glVertex3f(301, -501, -1);
+	glVertex3f(319, -480, -1);
+	glVertex3f(301, -501, -1);
+	glVertex3f(287, -522, -1);
+	glVertex3f(275, -546, -1);
+	glVertex3f(277, -551, -1);	//detail one
+	glVertex3f(278, -568, -1);
+	glVertex3f(280, -586, -1);
+	glVertex3f(288, -610, -1);	//detail two
+	glVertex3f(297, -633, -1);
+	glVertex3f(310, -659, -1);
+	glVertex3f(366, -663, -1);
+	glVertex3f(361, -636, -1);
+	glVertex3f(348, -619, -1);
+	glVertex3f(334, -607, -1);
+	glVertex3f(319, -598, -1);
+	glVertex3f(304, -594, -1);
+	glVertex3f(293, -599, -1);
+	glVertex3f(288, -610, -1);
+	glVertex3f(293, -599, -1);
+	glVertex3f(304, -594, -1);
+	glVertex3f(319, -598, -1);
+	glVertex3f(334, -607, -1);
+	glVertex3f(348, -619, -1);
+	glVertex3f(361, -636, -1);
+	glVertex3f(367, -604, -1);
+	glVertex3f(361, -636, -1);
+	glVertex3f(369, -601, -1);
+	glVertex3f(373, -589, -1);
+	glVertex3f(362, -573, -1);
+	glVertex3f(350, -563, -1);
+	glVertex3f(335, -555, -1);
+	glVertex3f(318, -549, -1);
+	glVertex3f(297, -548, -1);
+	glVertex3f(277, -553, -1);
+	glVertex3f(297, -548, -1);
+	glVertex3f(318, -549, -1);
+	glVertex3f(335, -555, -1);
+	glVertex3f(350, -563, -1);
+	glVertex3f(362, -573, -1);
+	glVertex3f(373, -589, -1);
+	glVertex3f(378, -577, -1);
+	glVertex3f(379, -563, -1);
+	glVertex3f(373, -567, -1);
+	glVertex3f(366, -566, -1);
+	glVertex3f(361, -555, -1);
+	glVertex3f(358, -542, -1);
+	glVertex3f(357, -523, -1);
+	glVertex3f(361, -508, -1);
+	glVertex3f(367, -496, -1);
+	glVertex3f(376, -487, -1);
+	glVertex3f(367, -496, -1);
+	glVertex3f(361, -508, -1);
+	glVertex3f(357, -523, -1);
+	glVertex3f(358, -542, -1);
+	glVertex3f(361, -555, -1);
+	glVertex3f(366, -566, -1);
+	glVertex3f(373, -567, -1);
+	glVertex3f(379, -563, -1);
+	//Left arm stuff
+	glVertex3f(386, -567, -1);
+	glVertex3f(392, -570, -1);
+	glVertex3f(398, -563, -1);
+	glVertex3f(405, -557, -1);
+	glVertex3f(417, -558, -1);
+	glEnd();
 
   glutSwapBuffers ( );
   // Swap The Buffers
