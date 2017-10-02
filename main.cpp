@@ -603,6 +603,164 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(451, -672, -1);
 	glVertex3f(443, -668, -1);
 	glVertex3f(428, -665, -1);
+	glEnd();
+
+
+	//Left hand
+	glBegin(GL_LINE_STRIP);
+	glVertex3f(269, -666, -1);
+	glVertex3f(259, -667, -1);	
+	glVertex3f(250, -662, -1);
+	glVertex3f(243, -658, -1);
+	glVertex3f(228, -653, -1);
+	glVertex3f(206, -652, -1);	//detail one
+	glVertex3f(182, -650, -1);	//detail two
+	glVertex3f(156, -647, -1);  //detail tree
+	glVertex3f(139, -653, -1);	//detail four
+	glVertex3f(129, -657, -1);	//detail five
+	glVertex3f(110, -668, -1);
+	glVertex3f(112, -673, -1);
+	glVertex3f(130, -664, -1);
+	glVertex3f(129, -657, -1);
+	glVertex3f(130, -664, -1);
+	glVertex3f(141, -660, -1);
+	glVertex3f(139, -653, -1);
+	glVertex3f(141, -660, -1);
+	glVertex3f(152, -656, -1);
+	glVertex3f(156, -647, -1);
+	glVertex3f(152, -656, -1);
+	glVertex3f(178, -658, -1);
+	glVertex3f(182, -650, -1);
+	glVertex3f(178, -658, -1);
+	glVertex3f(172, -669, -1);
+	glVertex3f(146, -670, -1);
+	glVertex3f(146, -664, -1);
+	glVertex3f(148, -658, -1);
+	glVertex3f(146, -664, -1);
+	glVertex3f(146, -670, -1);
+	glVertex3f(134, -675, -1);
+	glVertex3f(124, -681, -1);
+	glVertex3f(122, -675, -1);
+	glVertex3f(121, -669, -1);
+	glVertex3f(122, -675, -1);
+	glVertex3f(124, -681, -1);
+	glVertex3f(110, -688, -1);
+	glVertex3f(104, -684, -1);
+	glVertex3f(105, -677, -1);
+	glVertex3f(112, -673, -1);
+	glVertex3f(105, -677, -1);
+	glVertex3f(104, -684, -1);
+	glVertex3f(110, -688, -1);
+	glVertex3f(111, -697, -1);
+	glVertex3f(120, -701, -1);
+	glVertex3f(131, -698, -1);
+	glVertex3f(126, -691, -1);
+	glVertex3f(124, -681, -1);
+	glVertex3f(126, -691, -1);
+	glVertex3f(131, -698, -1);
+	glVertex3f(143, -697, -1);
+	glVertex3f(153, -693, -1);
+	glVertex3f(148, -682, -1);
+	glVertex3f(149, -672, -1);
+	glVertex3f(148, -682, -1);
+	glVertex3f(153, -693, -1);
+	glVertex3f(166, -695, -1);
+	glVertex3f(177, -692, -1);
+	glVertex3f(173, -681, -1);
+	glVertex3f(172, -669, -1);
+	glVertex3f(173, -681, -1);
+	glVertex3f(177, -692, -1);
+	glVertex3f(187, -692, -1);
+	glVertex3f(200, -697, -1);
+	glVertex3f(199, -682, -1);
+	glVertex3f(200, -669, -1);
+	glVertex3f(203, -658, -1);
+	glVertex3f(206, -652, -1);
+	glVertex3f(203, -658, -1);
+	glVertex3f(200, -669, -1);
+	glVertex3f(199, -682, -1);
+	glVertex3f(200, -697, -1);
+	glVertex3f(210, -701, -1);
+	glVertex3f(227, -702, -1);
+	glVertex3f(242, -700, -1);
+	glVertex3f(254, -691, -1);
+	glVertex3f(260, -685, -1);
+	glVertex3f(260, -676, -1);
+	glVertex3f(258, -667, -1);
+	glVertex3f(260, -676, -1);
+	glVertex3f(260, -685, -1);
+	glVertex3f(270, -681, -1);
+	glVertex3f(284, -683, -1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
