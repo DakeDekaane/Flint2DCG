@@ -7,10 +7,11 @@
 //************************************************************//
 #include "Main.h"
 
-float azul_claro[] = { 0.341,0.623,0.823 };
-float azul_oscuro[] = { 0.101,0.419,0.615 };
+float azul_claro[] = { 0.341,0.523,0.723 };
+float azul[] = { 0.341,0.623,0.823 };
 float verde_claro[] = { 0.69, 1.0, 0.549, 0.0 };
 float negro[] = { 0.0,0.0,0.0 };
+float blanco[] = { 1.0,1.0,1.0 };
 
 
 void InitGL ( void )     // Inicializamos parametros
@@ -31,10 +32,252 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glLoadIdentity();
 	glClearColor(0.341, 0.623, 0.823, 1.0);		//Color de fondo
 	glColor3fv(negro);					//Color de línea
+
+
+
+	/**Relleno**/
+
+	//Ojo derecho
+	glBegin(GL_POLYGON);
+	glColor3fv(blanco);
+	glVertex3f(235, -308, -1);
+	glVertex3f(235, -299, -1);
+	glVertex3f(236, -289, -1);
+	glVertex3f(239, -280, -1);
+	glVertex3f(242, -274, -1);
+	glVertex3f(246, -269, -1);
+	glVertex3f(249, -265, -1);
+	glVertex3f(253, -262, -1);
+	glVertex3f(258, -257, -1);
+	glVertex3f(265, -253, -1);
+	glVertex3f(273, -251, -1);
+	glVertex3f(281, -251, -1);
+	glVertex3f(281, -250, -1);
+	glVertex3f(288, -253, -1);
+	glVertex3f(294, -256, -1);
+	glVertex3f(299, -260, -1);
+	glVertex3f(304, -265, -1);
+	glVertex3f(308, -272, -1);
+	glVertex3f(311, -277, -1);
+	glVertex3f(311, -277, -1);
+	glVertex3f(302, -285, -1);
+	glVertex3f(291, -294, -1);
+	glVertex3f(283, -299, -1);
+	glVertex3f(277, -302, -1);
+	glVertex3f(269, -305, -1);
+	glVertex3f(262, -308, -1);
+	glEnd();
+
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex3f(235, -308, -1);
+	glVertex3f(237, -315, -1);
+	glVertex3f(240, -321, -1);
+	glVertex3f(248, -316, -1);
+	glVertex3f(255, -312, -1);
+	glVertex3f(262, -308, -1);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3fv(azul);
+	glVertex3f(255, -312, -1);
+	glVertex3f(253, -307, -1);
+	glVertex3f(253, -297, -1);
+	glVertex3f(256, -291, -1);
+	glVertex3f(261, -287, -1);
+	glVertex3f(269, -283, -1);
+	glVertex3f(278, -283, -1);
+	glVertex3f(284, -284, -1);
+	glVertex3f(288, -288, -1);
+	glVertex3f(291, -294, -1);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3fv(negro);
+	glVertex3f(262, -308, -1);
+	glVertex3f(260, -304, -1);
+	glVertex3f(260, -299, -1);
+	glVertex3f(262, -295, -1);
+	glVertex3f(266, -290, -1);
+	glVertex3f(270, -288, -1);
+	glVertex3f(276, -289, -1);
+	glVertex3f(281, -291, -1);
+	glVertex3f(283, -294, -1);
+	glVertex3f(283, -298, -1);
+	glEnd();
+
+
+	//Ojo izquierdo
+	glBegin(GL_POLYGON);
+	glColor3fv(blanco);
+	glVertex3f(334, -365, -1);
+	glVertex3f(328, -362, -1);
+	glVertex3f(323, -360, -1);
+	glVertex3f(318, -355, -1);
+	glVertex3f(315, -350, -1);
+	glVertex3f(312, -343, -1);
+	glVertex3f(310, -337, -1);
+	glVertex3f(310, -328, -1);
+	glVertex3f(311, -321, -1);
+	glVertex3f(313, -314, -1);
+	glVertex3f(316, -306, -1);
+	glVertex3f(320, -300, -1);
+	glVertex3f(325, -293, -1);
+	glVertex3f(330, -288, -1);
+	glVertex3f(337, -284, -1);
+	glVertex3f(343, -281, -1);
+	glVertex3f(348, -278, -1);
+	glVertex3f(348, -278, -1);
+	glVertex3f(358, -278, -1);
+	glVertex3f(365, -280, -1);
+	glVertex3f(372, -282, -1);
+	glVertex3f(378, -283, -1);
+	glVertex3f(383, -286, -1);
+	glVertex3f(389, -291, -1);
+	glVertex3f(394, -294, -1);
+	glVertex3f(400, -300, -1);
+	glVertex3f(404, -307, -1);
+	glVertex3f(407, -313, -1);
+	glVertex3f(410, -319, -1);
+	glVertex3f(411, -328, -1);
+	glVertex3f(412, -345, -1);
+	glVertex3f(412, -349, -1);
+	glEnd();
+
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex3f(412, -349, -1);
+	glVertex3f(407, -355, -1);
+	glVertex3f(400, -360, -1);
+	glVertex3f(392, -364, -1);
+	glVertex3f(384, -367, -1);
+	glVertex3f(374, -370, -1);
+	glVertex3f(374, -370, -1);
+	glVertex3f(366, -368, -1);
+	glVertex3f(358, -366, -1);
+	glVertex3f(348, -365, -1);
+	glVertex3f(334, -365, -1);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3fv(azul);
+	glVertex3f(368, -321, -1);
+	glVertex3f(375, -324, -1);
+	glVertex3f(380, -329, -1);
+	glVertex3f(383, -335, -1);
+	glVertex3f(384, -340, -1);
+	glVertex3f(384, -349, -1);
+	glVertex3f(380, -357, -1);
+	glVertex3f(373, -362, -1);
+	glVertex3f(365, -363, -1);
+	glVertex3f(356, -362, -1);
+	glVertex3f(350, -360, -1);
+	glVertex3f(346, -355, -1);
+	glVertex3f(343, -348, -1);
+	glVertex3f(343, -340, -1);
+	glVertex3f(344, -334, -1);
+	glVertex3f(349, -327, -1);
+	glVertex3f(353, -323, -1);
+	glVertex3f(360, -321, -1);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3fv(negro);
+	glVertex3f(361, -328, -1);
+	glVertex3f(370, -330, -1);
+	glVertex3f(375, -333, -1);
+	glVertex3f(377, -337, -1);
+	glVertex3f(377, -343, -1);
+	glVertex3f(375, -350, -1);
+	glVertex3f(369, -354, -1);
+	glVertex3f(360, -355, -1);
+	glVertex3f(355, -354, -1);
+	glVertex3f(351, -349, -1);
+	glVertex3f(350, -341, -1);
+	glVertex3f(352, -335, -1);
+	glVertex3f(355, -330, -1);
+	glEnd();
+
+	//Boca
+	glBegin(GL_POLYGON);
+	glVertex3f(247, -406, -1);
+	glVertex3f(250, -413, -1);
+	glVertex3f(254, -420, -1);
+	glVertex3f(259, -428, -1);
+	glVertex3f(265, -432, -1);
+	glVertex3f(270, -434, -1);
+	glVertex3f(272, -416, -1);
+	glEnd();
 	
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex3f(272, -416, -1);
+	glVertex3f(270, -434, -1);
+	glVertex3f(272, -429, -1);
+	glVertex3f(276, -424, -1);
+	glVertex3f(281, -421, -1);
+	glVertex3f(287, -417, -1);
+	glEnd();
+
+	//Dientes
+	glBegin(GL_TRIANGLE_FAN);
+	glColor3fv(blanco);
+	//glVertex3f(251, -399, -1);
+	glVertex3f(242, -396, -1);
+	glVertex3f(243, -402, -1);
+	glVertex3f(247, -406, -1);
+	glVertex3f(254, -412, -1);
+	glVertex3f(262, -415, -1);
+	glVertex3f(272, -417, -1);
+	glVertex3f(287, -417, -1);
+	//glVertex3f(321, -414, -1);
+	glEnd();
+
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex3f(331, -402, -1);
+	glVertex3f(329, -408, -1);
+	glVertex3f(321, -414, -1);
+	glVertex3f(312, -416, -1);
+	glVertex3f(306, -417, -1);
+	glVertex3f(287, -417, -1);
+	glEnd();
+	
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex3f(287, -417, -1);
+	glVertex3f(242, -396, -1);
+	glVertex3f(251, -399, -1);
+	glVertex3f(259, -403, -1);
+	glVertex3f(268, -404, -1);
+	glVertex3f(281, -407, -1);
+	glVertex3f(302, -407, -1);
+	glVertex3f(311, -406, -1);
+	glVertex3f(321, -404, -1);
+	glVertex3f(331, -402, -1);
+	glEnd();
+
+	//Lengua
+	glBegin(GL_POLYGON);
+	glColor3fv(azul_claro);
+	glVertex3f(306, -417, -1);
+	glVertex3f(287, -417, -1);
+	glVertex3f(281, -421, -1);
+	glVertex3f(276, -424, -1);
+	glVertex3f(272, -429, -1);
+	glVertex3f(280, -435, -1);
+	glVertex3f(288, -434, -1);
+	glVertex3f(296, -432, -1);
+	glVertex3f(305, -427, -1);
+	glVertex3f(312, -423, -1);
+	glEnd();
+	
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex3f(312, -423, -1);
+	glVertex3f(306, -417, -1);
+	glVertex3f(312, -416, -1);
+	glVertex3f(321, -414, -1);
+	glEnd();
+										
+	//** Lineas **//									
 	//Cabeza 
 	glLineWidth(2.5);
-	
+	glColor3fv(negro);
 	glBegin(GL_LINE_STRIP);
 	glVertex3f(235, -308, -1.0);
 	glVertex3f(225, -313, -1.0);
@@ -160,8 +403,6 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(321, -414, -1);
 	glEnd();
 	
-	/*Aquí va relleno dientes*/
-
 	glBegin(GL_LINE_STRIP);
 	glVertex3f(247, -406, -1);
 	glVertex3f(250, -413, -1);
@@ -222,6 +463,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(319, -269, -1);
 	glEnd();
 
+	glLineWidth(1.5);
 	glBegin(GL_LINE_STRIP);
 	glVertex3f(281, -250, -1);
 	glVertex3f(288, -253, -1);
@@ -232,7 +474,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(311, -277, -1);
 	glEnd();
 
-	glBegin(GL_POLYGON);
+	glBegin(GL_LINE_STRIP);
 	glVertex3f(255, -312, -1);
 	glVertex3f(253, -307, -1);
 	glVertex3f(253, -297, -1);
@@ -244,21 +486,9 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(288, -288, -1);
 	glVertex3f(291, -294, -1);
 	glEnd();
-
-	glBegin(GL_POLYGON);
-	glVertex3f(262, -308, -1);
-	glVertex3f(260, -304, -1);
-	glVertex3f(260, -299, -1);
-	glVertex3f(262, -295, -1);
-	glVertex3f(266, -290, -1);
-	glVertex3f(270, -288, -1);
-	glVertex3f(276, -289, -1);
-	glVertex3f(281, -291, -1);
-	glVertex3f(283, -294, -1);
-	glVertex3f(283, -298, -1);
-	glEnd();
-
+	
 	//Ojo izquierdo
+	glLineWidth(2.5);
 	glBegin(GL_LINE_STRIP);
 	glVertex3f(334, -365, -1);
 	glVertex3f(328, -362, -1);
@@ -327,8 +557,9 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(384, -373, -1);
 	glVertex3f(392, -377, -1);
 	glEnd();
-
-	glBegin(GL_POLYGON);
+	
+	glLineWidth(1.5);
+	glBegin(GL_LINE_LOOP);
 	glVertex3f(368, -321, -1);
 	glVertex3f(375, -324, -1);
 	glVertex3f(380, -329, -1);
@@ -349,23 +580,8 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glVertex3f(360, -321, -1);
 	glEnd();
 
-	glBegin(GL_POLYGON);
-	glVertex3f(361, -328, -1);
-	glVertex3f(370, -330, -1);
-	glVertex3f(375, -333, -1);
-	glVertex3f(377, -337, -1);
-	glVertex3f(377, -343, -1);
-	glVertex3f(375, -350, -1);
-	glVertex3f(369, -354, -1);
-	glVertex3f(360, -355, -1);
-	glVertex3f(355, -354, -1);
-	glVertex3f(351, -349, -1);
-	glVertex3f(350, -341, -1);
-	glVertex3f(352, -335, -1);
-	glVertex3f(355, -330, -1);
-	glEnd();
-
 	//Antena derecha
+	glLineWidth(2.5);
 	glBegin(GL_LINE_STRIP);
 	glVertex3f(348, -264, -1);
 	glVertex3f(347, -254, -1);
